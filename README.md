@@ -33,7 +33,7 @@ public  class Book {
 
 &nbsp;
 
-Execute our query and parse the results.
+Execute our query and parse the results. 
 
 ```java
 Statement statement = connection.prepareStatement("SELECT book_id, name, author FROM books");
